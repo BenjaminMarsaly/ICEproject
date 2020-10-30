@@ -8,7 +8,7 @@ Clémence BLESTEL - Marine GUETTIER - Benjamin MARSALY
 """
     #####################################################
     #       Chapitre 3 - Invasibility Analysis          #
-    #       Scenario 6 - Code 1/3                       #
+    #       Scenario 6 - Code 1/4                       #
     #       Pairwise Invasibility Analysis              #
     #####################################################
 
