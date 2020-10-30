@@ -25,12 +25,12 @@ import matplotlib.pyplot as plt
 # Functions 
 #------------------
 
-# DD_FUNCTION FOR TRAJECTORIES
+# Density Dependance function for trajectories
 def DD_FUNCTION1(n,ALPHA,BETA):
     return (ALPHA*math.exp(-BETA*n))
 
 
-# DD_FUNCTION FOR INVASIBILITY
+# Density Dependance function for invasibility
 def DD_FUNCTION2(ALPHA,N1,N2):
     BETA = ALPHA*0.001 # ALPHA BETA relationship
     N = N1*ALPHA*math.exp(-BETA*N2) # Ricker function
@@ -133,6 +133,7 @@ z_matrix = z.reshape(N1, N1) # Convert to a matrix
 
 # Plot contours
 plt.contour(A_Resident, A_Invader,z_matrix)
+plt.scatter(2.725109, 2.725109, c = 'white', edgecolor = 'black', s = 130)
 plt.xlabel("Resident")
 plt.ylabel("Invader")
 plt.show()
